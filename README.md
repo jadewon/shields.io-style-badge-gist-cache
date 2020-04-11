@@ -6,9 +6,6 @@ Most of badge services support open source repositories or limited
 Many startup companies lack of funds, or maybe don't use coverage or code quality services like Coveralls
 But you still need to work with private repositories
 
-
-shields.io style badge for caching via gist.
-
 # setup instructions
 1. Create a [gist](https://gist.github.com/).
 2. find gist post id in the gist url.
@@ -19,6 +16,7 @@ export GIST_TOKEN="your gist api token"
 export GIST_ID="your gist post id"
 ```
 
+## Use your LCOV Code Coverage file
 ### badge.svg.codebiuild.sh
 This script runs like this
 1. find Statement coverage metrics in LCOV Code Coverage file (coverage/lcov-report/index.html) in your project working directory.

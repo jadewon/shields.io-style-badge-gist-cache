@@ -46,7 +46,7 @@ phases:
       - npm run deploy
 ```
 
-# Usage
+#### Usage
 gist only provide text/plain mime-type.
 
 so you need to change mime-type.
@@ -92,7 +92,7 @@ phases:
       - npm run deploy
 ```
 
-### Usage
+#### Usage
 gist only provide text/plain mime-type.
 
 so you need to change mime-type.
